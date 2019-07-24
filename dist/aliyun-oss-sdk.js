@@ -451,7 +451,7 @@ proto._getReqUrl = function _getReqUrl(params) {
   }
 
   var reourcePath = '/';
-  if (params.bucket && isIP) {
+  if (params.bucket) {
     reourcePath += params.bucket + '/';
   }
 
